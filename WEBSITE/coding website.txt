@@ -1,0 +1,100 @@
+HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Phaiq Venture Website</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Welcome To Phaiq Venture </h1>
+    <p></p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Available Application</h2>
+      <p>Item Shopping<p>
+      <p><img src="shopee.png" alt="Shopee" width="100" />  <img src="lazada.jpeg" alt="Lazada" width="100" />  <img src="temu.png" alt="Temu" width="100" />  <img src="taobao.png" alt="Taobao" width="100" />  <img src="skechers.png" alt="Skechers" width="100" />  <img src="uniqlo.png" alt="Uniqlo" width="100" />  <img src="alibaba.png" alt="Alibaba" width="100" />  <img src="lotuss.png" alt="Lotus" width="100" />  <img src="adidas.png" alt="Adidas" width="100" />  <img src="watsons.png" alt="Watsons" width="100" />  <img src="puma.png" alt="Puma" width="100" />  <img src="hm.png" alt="H&M" width="100" />  <img src="huawei.png" alt="Huawei" width="100" />  <img src="shein.png" alt="Shein" width="100" /><p>
+      
+      <p>Food<p>
+      <p><img src="tealive.jpeg" alt="Tealive" width="100" />  <img src="foodpanda.png" alt="Foodpanda" width="100" />  <p>
+      <p>Travel & Transportation<p>
+      <p><img src="trivago.png" alt="Trivago" width="100" />  <img src="trip-com.png" alt="Trip.com" width="100" />  <img src="malaysia-airlines.png" alt="Malaysia air" width="100" /><p> 
+      <p>Topup Gaming Point<p>
+      <p><img src="codashop.png" alt="Codashop" width="100" /><p>
+      <p><p>
+      <p>Whatsapp sekarang<p>
+        <a href="https://wa.me/601162696459?text=Nah%20link%20barang." target="_blank">
+  <img src="whatsapp2.jpeg" alt="Chat on WhatsApp" style="width: 70px; border: none;" />
+</a>
+</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>FAIQ AMNAN</p>
+  </footer>
+</body>
+</html>
+
+CSS
+/* Base styles */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header, main, footer {
+  padding: 30px;
+  text-align: center;
+}
+
+header {
+  background-color: #0077cc;
+  color: white;
+}
+
+section {
+  margin-top: 20px;
+}
+
+/* Responsive styles */
+@media (min-width: 768px) {
+  body {
+    background-color: #f0f0f0;
+  }
+
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  }
+}
+
+tambah kt css
+<style>
+  .image-button img {
+    transition: transform 0.2s ease;
+  }
+
+  .image-button img:hover {
+    transform: scale(1.05);
+  }
+</style>
+
+<a href="https://wa.me/1234567890" class="image-button" target="_blank">
+  <img src="button-image.png" alt="Click Me" width="200" />
+</a>
+
+nk cek coding secara live
+https://codepen.io/pen
